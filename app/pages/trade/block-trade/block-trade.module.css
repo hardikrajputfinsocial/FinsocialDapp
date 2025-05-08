@@ -1,0 +1,189 @@
+.container {
+  max-width: 4xl;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pageHeader {
+  margin-bottom: 1.5rem;
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.pageDescription {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.darkCard {
+  background-color: #0a0e17;
+  border-color: rgba(var(--border), 0.4);
+}
+
+.cardContent {
+  padding: 1.5rem;
+}
+
+.blockTradeInfo {
+  padding: 0.75rem;
+  background-color: rgba(30, 58, 138, 0.2);
+  border: 1px solid rgba(30, 64, 175, 0.3);
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputContainer {
+  margin-bottom: 1rem;
+}
+
+.inputLabel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.labelText {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.availableBalance {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+.inputWrapper {
+  display: flex;
+  background-color: #1a1f2e;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(var(--border), 0.4);
+  padding: 1rem;
+}
+
+.input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  outline: none;
+  width: 100%;
+}
+
+.swapButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.swapIconButton {
+  border-radius: 9999px;
+  background-color: #1a1f2e;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.quoteContainer {
+  padding: 1rem;
+  background-color: #1a1f2e;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.quoteRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.quoteRow:last-child {
+  margin-bottom: 0;
+}
+
+.expiryBadge {
+  background-color: rgba(30, 58, 138, 0.3);
+  color: #60a5fa;
+  border-color: rgba(30, 64, 175, 0.3);
+}
+
+.actionButton {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.actionButton:hover {
+  background-color: #1d4ed8;
+}
+
+.actionButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.termsText {
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--muted-foreground);
+  margin-top: 1rem;
+}
+
+.termsLink {
+  color: #60a5fa;
+}
+
+.featureTitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.featureList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  space-y: 0.75rem;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.featureBadge {
+  margin-top: 0.125rem;
+}
+
+.featureText {
+  font-size: 0.875rem;
+}
+
+.errorMessage {
+  font-size: 0.75rem;
+  color: #f87171;
+  margin-top: 0.25rem;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .pageHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .convertButton {
+    margin-top: 0;
+  }
+}
