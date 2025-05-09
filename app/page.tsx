@@ -12,10 +12,9 @@ import { StatsSection } from "@/components/stats-section"
 import { TrustedBySection } from "@/components/trusted-by-section"
 import { redirect } from "next/navigation"
 
-// Redirect from root to home page
+// Use Home component directly as the root page
 export default function RootPage() {
-  redirect("/pages/home")
-  return null
+  return <Home />
 }
 
 export function Home() {

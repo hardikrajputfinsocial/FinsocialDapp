@@ -42,7 +42,7 @@ export function MainNav() {
                 </NavigationMenuLink>
               </li>
               <li>
-                <Link href="/pages/trade/BTC_USDT?type=spot" legacyBehavior passHref>
+                <Link href="/trade/BTC_USDT?type=spot" legacyBehavior passHref>
                   <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
                     <div className="flex items-center gap-2">
                       <Bitcoin className="h-4 w-4" />
@@ -91,7 +91,7 @@ export function MainNav() {
                 <h3 className="mb-2 text-sm font-medium text-muted-foreground">Basic</h3>
                 <ul className="space-y-2">
                   <li>
-                    <Link href="/pages/trade/spot" legacyBehavior passHref>
+                    <Link href="/trade/spot" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Bitcoin className="h-4 w-4 text-primary" />
@@ -106,7 +106,7 @@ export function MainNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/trade/margin" legacyBehavior passHref>
+                    <Link href="/trade/margin" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <BarChart2 className="h-4 w-4 text-primary" />
@@ -119,7 +119,7 @@ export function MainNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/trade/p2p" legacyBehavior passHref>
+                    <Link href="/trade/p2p" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Users className="h-4 w-4 text-primary" />
@@ -134,7 +134,7 @@ export function MainNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/trade/convert" legacyBehavior passHref>
+                    <Link href="/trade/convert" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Repeat className="h-4 w-4 text-primary" />
@@ -152,7 +152,7 @@ export function MainNav() {
                 <h3 className="mb-2 text-sm font-medium text-muted-foreground">Advanced</h3>
                 <ul className="space-y-2">
                   <li>
-                    <Link href="/pages/trade/alpha" legacyBehavior passHref>
+                    <Link href="/trade/alpha" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Zap className="h-4 w-4 text-primary" />
@@ -165,7 +165,7 @@ export function MainNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/trade/bots" legacyBehavior passHref>
+                    <Link href="/trade/bots" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Bot className="h-4 w-4 text-primary" />
@@ -180,7 +180,7 @@ export function MainNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/trade/copy-trading" legacyBehavior passHref>
+                    <Link href="/trade/copy-trading" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Copy className="h-4 w-4 text-primary" />
@@ -193,7 +193,7 @@ export function MainNav() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pages/trade/api" legacyBehavior passHref>
+                    <Link href="/trade/api" legacyBehavior passHref>
                       <NavigationMenuLink className="flex items-center gap-2 rounded-md p-2 hover:bg-accent">
                         <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary/10">
                           <Code className="h-4 w-4 text-primary" />

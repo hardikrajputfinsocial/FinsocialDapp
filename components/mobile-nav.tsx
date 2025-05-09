@@ -44,7 +44,7 @@ export function MobileNav() {
                     Market Overview
                   </Link>
                   <Link
-                    href="/pages/trade/BTC_USDT?type=spot"
+                    href="/trade/BTC_USDT?type=spot"
                     className="px-4 py-2 text-sm"
                     onClick={() => setOpen(false)}
                   >
@@ -64,29 +64,29 @@ export function MobileNav() {
               <AccordionContent>
                 <div className="flex flex-col space-y-2 pl-4">
                   <div className="px-4 py-2 text-xs font-medium text-muted-foreground">Basic</div>
-                  <Link href="/pages/trade/spot" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/spot" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     Spot
                   </Link>
-                  <Link href="/pages/trade/margin" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/margin" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     Margin
                   </Link>
-                  <Link href="/pages/trade/p2p" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/p2p" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     P2P
                   </Link>
-                  <Link href="/pages/trade/convert" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/convert" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     Convert & Block Trade
                   </Link>
                   <div className="px-4 py-2 text-xs font-medium text-muted-foreground">Advanced</div>
-                  <Link href="/pages/trade/alpha" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/alpha" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     Alpha
                   </Link>
-                  <Link href="/pages/trade/bots" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/bots" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     Trading Bots
                   </Link>
-                  <Link href="/pages/trade/copy-trading" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/copy-trading" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     Copy Trading
                   </Link>
-                  <Link href="/pages/trade/api" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
+                  <Link href="/trade/api" className="px-4 py-2 text-sm" onClick={() => setOpen(false)}>
                     APIs
                   </Link>
                 </div>

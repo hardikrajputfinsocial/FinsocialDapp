@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Get the current port from the URL
+    const currentPort = window.location.port || "80";
+    // If we're on port 3000, redirect to the correct port
+    if (currentPort === "3000") {
+      const newUrl = window.location.href.replace(":3000", ":3002");
+      window.location.href = newUrl;
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to the correct port...</p>
+</body>
+</html>

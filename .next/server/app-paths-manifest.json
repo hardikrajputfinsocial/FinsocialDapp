@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/trade/spot/page": "app/trade/spot/page.js",
+  "/futures/usd-m/page": "app/futures/usd-m/page.js",
+  "/trade/convert/page": "app/trade/convert/page.js",
+  "/trade/margin/page": "app/trade/margin/page.js"
+}

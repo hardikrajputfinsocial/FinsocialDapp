@@ -2,6 +2,7 @@ import Link from "next/link"
 import { MainNav } from "@/components/main-nav"
 import { MobileNav } from "@/components/mobile-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { ConnectWallet } from "@/components/wallet/ConnectWallet"
 import { Search } from "lucide-react"
 
 export function SiteHeader() {
@@ -30,6 +31,7 @@ export function SiteHeader() {
           </div>
           <ThemeToggle />
           <nav className="flex items-center space-x-2">
+            <ConnectWallet size="sm" />
             <Link
               href="/login"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
