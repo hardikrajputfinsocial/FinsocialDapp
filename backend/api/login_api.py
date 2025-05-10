@@ -53,6 +53,10 @@ class WalletConnectRequest(BaseModel):
 fake_users_db = {}
 
 # === Helper Functions ===
+
+
+ 
+ 
 # Function to extract token from Authorization header
 from fastapi import Header, Request
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
